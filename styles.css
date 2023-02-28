@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8; 
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+}
+.top {
+    background-color: #1f2937;
+}
+.logo-links {
+    display: flex;
+    justify-content: space-around
+}
