@@ -19,6 +19,7 @@ h1 {
 }
 .top {
     background-color: #1f2937;
+    padding-bottom: 100px;
 }
 .logo-links {
     display: flex;
@@ -59,4 +60,28 @@ button {
     margin: 6;
     color: azure;
     font-family: 'Times New Roman', Times, serif;
+}
+.frog-pictures .four-frogs {
+    width: 225px;
+    height: 225px;
+    border:solid;
+}
+.frog-pictures {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+}
+.heading-two {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+figure {
+    margin: 0;
+}
+figcaption {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
 }
