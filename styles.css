@@ -55,7 +55,10 @@ button {
     max-width: 500px;
     margin: 0;
 }
-
+.second-sec {
+    background: #3882f6;
+    padding-bottom: 100px;
+}
 .top-para {
     margin: 6;
     color: azure;
@@ -84,4 +87,58 @@ figcaption {
     display: flex;
     flex-wrap: wrap;
     width: 200px;
+}
+.third-sec{
+    background-color: #9ba0a5;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.quote {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 32px;
+    color: #35404e;
+    flex-wrap: wrap;
+    width: 375px;
+}
+.Frog-guy {
+    display: flex;
+    align-self: flex-end;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+.fourth-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color: #000000;
+}
+.banner {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    width: 600px;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 6px;
+}
+
+.sub-text {
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+
+}
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+h3 {
+    margin: 0;
 }
