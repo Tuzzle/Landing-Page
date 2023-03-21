@@ -56,7 +56,7 @@ button {
     margin: 0;
 }
 .second-sec {
-    background: #3882f6;
+    background: white;
     padding-bottom: 100px;
 }
 .top-para {
@@ -89,7 +89,7 @@ figcaption {
     width: 200px;
 }
 .third-sec{
-    background-color: #9ba0a5;
+    background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
@@ -98,7 +98,7 @@ figcaption {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     font-size: 32px;
-    color: #35404e;
+    color: #1F2937;
     flex-wrap: wrap;
     width: 375px;
 }
@@ -114,7 +114,7 @@ figcaption {
     justify-content: center;
     align-items: center;
     padding: 12px;
-    background-color: #000000;
+    background-color: white;
 }
 .banner {
     display: flex;
@@ -126,6 +126,7 @@ figcaption {
     padding-top: 24px;
     padding-bottom: 24px;
     gap: 6px;
+    border-radius: 15px;
 }
 
 .sub-text {
@@ -141,4 +142,11 @@ figcaption {
 }
 h3 {
     margin: 0;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
